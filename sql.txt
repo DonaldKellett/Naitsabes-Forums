@@ -1,0 +1,12 @@
+CREATE TABLE accounts (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  username TEXT NOT NULL,
+  password TEXT NOT NULL,
+  email TEXT,
+  rank INTEGER NOT NULL,
+  activation_key TEXT NOT NULL,
+  activation_status TEXT NOT NULL,
+  login_token TEXT NOT NULL,
+  date_joined TIMESTAMP
+);
